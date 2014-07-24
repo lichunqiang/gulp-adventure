@@ -1,0 +1,11 @@
+this is solution:
+
+var gulp = require('gulp');
+
+gulp.task('default', function(){
+  console.log('hello world');
+});
+
+And default, When you run `gulp`, this will run defined default task.
+
+Also you can run multi task at once: gulp task1 task2 ....

@@ -1,0 +1,21 @@
+Getting Start
+
+1. Install gulp
+
+    npm install -g gulp
+
+or
+
+    npm install  --save-dev gulp
+
+2. Create a gulpfile.js at the root of your project
+
+    var gulp = require('gulp');
+
+    gulp.task('default', function(){
+       console.log('hello world');
+    });
+
+3. Run it:
+
+    gulp
